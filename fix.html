@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> ProShot </title>
+    <link rel="stylesheet" href="style.css">
+    <!-- poppins font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <!-- righteous font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+   <!-- large screen Navigation Bar -->
+    <nav class="nav">
+        
+        <div style="display: flex;height: 10vh;align-items: center;">
+            <img src="bac.png" alt="" width="70px" height="70px" style="object-fit: cover;">
+            <h2 style="font-family: 'Righteous', sans-serif;letter-spacing: 2px;">Royal Store</h2>
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">More</a></li>
+            
+        </ul>
+    
+    </nav>
+
+    <!-- mobile screen navigation Bar -->
+    <div id="mobile" style="display: flex;align-items: center;">
+        <div style="font-size:35px;cursor:pointer;padding-left: 10px;" onclick="openNav()" class="mobile">&#9776; 
+         
+        </div>
+        <span class="mobile" style="display: flex;align-items: center;">
+            <img src="gen.jpeg" alt="" width="50px" height="50px" style="object-fit: cover;" class="mobile">
+            <h2 style="font-family: 'Righteous', sans-serif;letter-spacing: 2px;font-size: 20px;" class="mobile">ProShot</h2>
+        </span>
+    </div>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        <a href="#">More</a>
+    </div>
+    
+    <!-- landing section     -->
+    <section class="landing" style="background-image:url('download\ \(1\).jpeg');background-size: cover;">   
+       <div>
+            <h1 class="text1 slide">
+                ProShot Photography
+            </h1>
+            <p class="text2 slide">Lorem ipsum dolor sit, amet consectetur adipisicin Ab,<br> earum in architecto consequuntur minim </p>
+            
+            <a href="/" class="landing-btn slide">
+                <button class="bn54">
+                <span class="bn54span">Explore Services</span>
+                </button>           
+            </a>
+       </div>     
+    </section>
+
+     <!--  Photo album Header -->
+     <header>
+        <h1 class="album-title">
+            Royal tore fix
+        </h1>
+       
+    </header> 
+
+    <!-- Photo album container -->
+    <div style="margin-bottom: 20px;" class="cont1">
+        <div class="container" >
+             <img src="IMG-20240801-WA0047.jpg" alt="night light" width="100%" height="80%" 
+             style="object-fit: cover;">
+            <p class="caption"> unisex wears</p>
+        </div>  
+        <div class="container" >
+            <img src="IMG-20240801-WA0048.jpg" alt="night light" width="100%" height="80%" 
+            style="object-fit: cover;">
+            <p class="caption"> new prouct</p>
+        </div>
+       <div class="container" >
+            <img src="IMG-20240801-WA0049.jpg" alt="night light" width="100%" height="80%" 
+            style="object-fit: cover;">
+            <p class="caption"> stunning and affordable wears</p>
+        </div>
+    </div>
+
+    <div style="margin-bottom: 50px; margin-top: 10px;" class="cont1">
+        <div class="container" >
+             <img src="IMG-20240801-WA0054.jpg" alt="night light" width="100%" height="80%" 
+             style="object-fit: cover;">
+            <p class="caption"> legit and exotics</p>
+        </div>  
+        <div class="container" >
+            <img src="IMG-20240801-WA0056.jpg" alt="forest trail" width="100%" height="80%" 
+            style="object-fit: cover;">
+            <p class="caption"> classic wears</p>
+        </div>
+       <div class="container" >
+            <img src="IMG-20240801-WA0049.jpg" alt="night light" width="100%" height="80%" 
+            style="object-fit: cover;">
+            <p class="caption"> exotic wears</p>
+        </div>
+    </div>
+    <div class="container" >
+        <img src="cl9.jpg" alt="night light" width="100%" height="80%" 
+        style="object-fit: cover;">
+        <p class="caption"> exotic wears</p>
+    </div>
+    <div class="container" >
+        <img src="download (1).jpeg" alt="night light" width="100%" height="80%" 
+        style="object-fit: cover;">
+        <p class="caption"> exotic wears</p>
+    </div>
+
+    <div class="container" >
+        <img src="gg.jpg" alt="night light" width="100%" height="80%" 
+        style="object-fit: cover;">
+        <p class="caption"> exotic wears</p>
+    </div>
+</div>
+
+</div>
+
+
+
+    <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+    <footer>
+        <span>this is Alomaja Emmanuel Dome </span>
+    </footer>
+</body>
+</html>
